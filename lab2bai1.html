@@ -6,7 +6,8 @@
                 border-radius: 50%;
                 width: 200px;
                 height: 200px;
-                margin: 0 auto;
+                padding-top: 3%;
+                padding-bottom: 3%;
             }
             #id1{
                 text-align: left;
@@ -21,63 +22,88 @@
                 
             }
             #id2{
-                background-color: grey;
+                background-color: rgb(223, 223, 223);
                 margin-top: 10px;
                 margin-bottom: 10px;
+
+            }
+            li {
+                text-align: left;
+                background-color: rgb(223, 223, 223);
+                margin-top: 10px;
+                margin-bottom: 10px;
+                padding:5px;
 
             }
             
         </style>
     </head>
     <body>
-        <div style="background-color: green; text-align: center; padding-bottom: 2%; color: white;">
+        <div style="background-color: green; text-align: center; padding-bottom: 2%; color: white; font-family: Arial, Helvetica, sans-serif;">
             <h1 ><b>Trương Nhật Hoàng</b></h1>
             <h3 >Lập trình viên web & thiết kế UX/UI</h3>
         </div>
-        <div align = "center"><img src="./IMG_1458.JPG"  style="padding-top: 3%; padding-bottom: 3%;"></div>
-        <div id = "id1"><h2>Giới Thiệu</h2></div>
-        <hr>
-        <div style="padding-bottom: 2%;">Xin chào! Tôi là Trương Nhật Hoàng, một lập trình web với hơn 5 năm kinh nghiệm trong việc xây dựng các ứng dụng web hiện đại và thân thiện với người dùng. Tôi đam mê công nghệ và luôn tìm cách học hỏi những điều mới để cái thiện kỹ năng của mình</div>
-        <div id = "id1"> <h2>Kỹ năng</h2></div>
-        <hr>
-        <div id ="id2"> HTML5 & CSS3</div>
+        <div align = "center"><img src="./IMG_1458.JPG"  ></div>
+        <div id = "id1">
+            <h2>Giới Thiệu</h2>
+            <hr>
+            <div style="padding-bottom: 2%;">Xin chào! Tôi là Trương Nhật Hoàng, một lập trình web với hơn 5 năm kinh nghiệm trong việc xây dựng các ứng dụng web hiện đại và thân thiện với người dùng. Tôi đam mê công nghệ và luôn tìm cách học hỏi những điều mới để cái thiện kỹ năng của mình</div>
+        </div>
+        <div id = "id1"> 
+            <h2>Kỹ năng</h2>
+            <hr>
+        
+        </div>
+        <!-- <div id ="id2">HTML&CSS3 </div>
         <div id = "id2" > Javascript & React</div>
         <div id = "id2"> Responsive design</div>
         <div id ="id2"> UX/UI design</div>
-        <div id = "id2"> Node.JS & Express</div>
+        <div id = "id2"> Node.JS & Express</div> -->
+        <ul style="list-style-type: none; padding-left: 0px;">
+            <div><li>HTML&CSS3</li></div>
+            <div><li>Javascript & React</li></div>
+            <div><li>Responsive design</li></div>
+            <div><li>UX/UI design</li></div>
+            <div><li>Node.JS & Express</li></div>
+        </ul>
         <div id="id1" style="margin-top: 20px; "> <h2>Dự án</h2> </div>
-        <hr>
-        <table style=" border: 1px solid  ; border-color: black; width: 100%;" >
-            <tr>
-                <th style="background-color: green; color: white; text-align: left;">Tên dự án</th>
-                <th style="background-color: green; color: white;">Mô tả</th>
-                <th style="background-color: green; color: white;">Vai trò</th>
-
-            </tr>
-
-            <tr style="background-color: darkgrey; text-align: left;">
-                <th>Website E-commerce</th>
-                <th>Xây dựng trang web bán hàng trực tuyến với hệ thống quản lý đơn hàng và thanh toán</th>
-                <th>Frontedn developer</th>
-
-            </tr>
-            <tr style="background-color: darkgrey; text-align: left;">
-                <th>Ứng dụng quản lý công việc </th>
-                <th>Phát triển ứng dụng giúp quản lý và theo dõi tiến độ công việc cho đội ngũ</th>
-                <th>Full Stack developer</th>
-            </tr>
-            <tr style="background-color: darkgrey; text-align: left;">
-                <th>Blog Personal</th>
-                <th>Thiết kế và triển khai blog cá nhân để chia sẻ kiến thức về lập trình và công nghệ</th>
-                <th>UI/UX design</th>
-            </tr>
-
-        </table>
-        <div id = "id1"><h2>Thông Tin Liên Hệ</h2></div>
-        <hr>
-        <div>Email: nguyenvana@example.com</div>
-        <div>Số điện thaoij: 0123 456 789</div>
-        <div>LinkedIn: linkedin.com/in/nguyenvana</div>
-        <div style="background-color: grey; text-align: center; padding-top: 20px; padding-bottom: 20px; color: white;"> &#169; 2024. Trương Nhật Hoàng. All rights reserved</div>
+            <hr>
+            <table style=" border: 1px solid black  ; width: 100%; height: 20%;" >
+                <tr style="background-color: green; color: white; text-align: left;">
+                    <th >Tên dự án</th>
+                    <th >Mô tả</th>
+                    <th >Vai trò</th>
+    
+                </tr>
+    
+                <tr style="background-color: darkgrey; text-align: left;">
+                    <td>Website E-commerce</th>
+                    <td>Xây dựng trang web bán hàng trực tuyến với hệ thống quản lý đơn hàng và thanh toán</th>
+                    <td>Frontedn developer</th>
+    
+                </tr>
+                <tr style="background-color: darkgrey; text-align: left;">
+                    <td>Ứng dụng quản lý công việc </th>
+                    <td>Phát triển ứng dụng giúp quản lý và theo dõi tiến độ công việc cho đội ngũ</th>
+                    <td>Full Stack developer</th>
+                </tr>
+                <tr style="background-color: darkgrey; text-align: left;">
+                    <td>Blog Personal</th>
+                    <td>Thiết kế và triển khai blog cá nhân để chia sẻ kiến thức về lập trình và công nghệ</th>
+                    <td>UI/UX design</th>
+                </tr>
+    
+            </table>
+    
+        <div >
+            <h2 id = "id1">Thông Tin Liên Hệ</h2>
+            <hr>
+            <div style="color: black;">
+                <a href="mailto:nguyenvana@gmail.com">Email: nguyenvana@example.com</a><br>
+                <a href = "tel: 0123 456 789">Liên Hệ: 0123 456 789</a><br>
+                <a href="mailto:nguyenvana@gmail.com">LinkedIN: linkedin.com/in/nguyevana</a>
+            </div>
+        </div>
+        <div style="background-color: rgb(0, 0, 0); text-align: center; padding-top: 20px; padding-bottom: 20px; color: white;"> &#169; 2024. Trương Nhật Hoàng. All rights reserved</div>
     </body>
 </html>
